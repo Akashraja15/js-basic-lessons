@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print and New Tab</title>
+</head>
+<body>
+    <p><button onclick="openWindow()">Open New</button></p>
+    <p><button onclick="closeAll()">Close Them</button></p>
+
+    <script>
+        function openWindow() {
+            //myWindow = window.open("https://www.google.com","page1.html","height=300","width=400");
+
+            myWindow = window.open("https://www.google.com","./page1.html","menubar=1");
+
+            myWindow = window.open("https://www.google.com","./page1.html","width=300,status=1,toolbar=1");
+        }
+        function closeAll () {
+            myWindow.close();
+        }
+    </script>
+
+<form>
+    <input type="button" value="print" onclick="window.print()" />
+</form>
+</body>
+</html>
