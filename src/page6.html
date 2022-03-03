@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input placeholder="Enter your name" type="text" id="userInput" size="60"> 
+    <button onclick="Usersubmit()">Submit</button> 
+    <br>
+    <p> <input placeholder="Entercity Here" type="text" id="Tx2"  onkeyup="userSubmitA('Tx2')" /> </p>
+    <p><div id="result"></div></p>
+    <script type="text/javascript">
+        document.writeln('<p>Hello</p>');
+        function Usersubmit(){
+            const UI=document.getElementById('userInput').value;
+            document.getElementById('result').innerHTML=`you typed: ${UI}`;
+        }
+        function userSubmitA(v1){
+            const UI=document.getElementById(v1).value;
+            document.getElementById('result').innerHTML=`you typed: ${UI}`;
+        }
+    </script>
+    <script type="text/javscript">
+        let x = 5;
+    </script> tag
+
+        Everything from tag forward is now being processed as HTML!
+        Thing is a bad things!
+        To avoid this you need to avoid using this tag anywhere in your javascript,
+        and 
+        If you have it, you should break the string out like this '</scr'+'ipt>'
+        document.writeln('</scr'+'ipt>');
+    </script>
+
+    <script type="text/javascript">
+        const x=15;
+        document.writeln(`<p>Value is ${x}`);
+    </script>
+</body>
+</html>
