@@ -3,6 +3,7 @@ console.log('Hi Node!!!');
 function callme () {
   const x = 100;
   const y = x * 2;
+  const z = 0;
   if (x < 500) {
     console.log('x < 500');
     const z = x + y;
