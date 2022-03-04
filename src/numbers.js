@@ -17,6 +17,19 @@ console.log("10" / "10");
 
 // ---------------------------------------------
 
+console.log('10 < 5 = ', 10 < 5);
+console.log('10 > 5 = ', 10 > 5);
+console.log('10 <= 5 = ', 10 <= 5);
+console.log('10 >= 5 = ', 10 >= 5);
+console.log('10 == 5 = ', 10 === 5);
+console.log('10 != 5 = ', 10 !== 5);
+console.log('10 === 5 = ', 10 === 5);
+console.log('10 !== 5 = ', 10 !== 5);
+
+console.log('10 === "5" = ', 10 === "5"); // TYPE COERECION
+
+// -----------------------------------------------------
+
 // Math helper methods:
 console.log(Math.round(2.2));
 console.log(Math.floor(2.6));

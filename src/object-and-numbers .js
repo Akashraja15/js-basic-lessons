@@ -1,3 +1,6 @@
+/* eslint-disable no-new-object */
+/* eslint-disable no-array-constructor */
+/* eslint-disable no-unused-vars */
 /* eslint-disable semi */
 const person = {
   first: 'Akash',
@@ -13,6 +16,17 @@ console.log(person.first);
 console.log(person.last);
 person.last = null;
 console.log(person.last);
+
+// -----------------------------------------------------
+
+const o = new Object();
+const a = new Array();
+const d = new Date();
+const f1 = function () {
+  console.log('The cow jumped over the Moon');
+};
+console.log('Date = ' + d);
+f1();
 
 // ------------------------------------------
 
