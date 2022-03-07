@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Break-Continue & Switch</title>
+</head>
+
+<script>
+    //Break and Continue
+    // var month = prompt('Enter a number between 1 to 12', 6);
+    // for (var days =1; days <= 31; days++) {
+    //     if ((month == 4 || month == 6 || month == 9 || month  == 11) && days == 31) continue;
+    //     console.log('Days: ', days);
+    //     if (month == 2 && days == 28) break;
+    // }
+
+
+    //Switch
+    var day = 6;
+    switch (day) {
+        case 1:
+            console.log('Monday');
+            break;
+        case 2:
+            console.log('Tuesday');
+            break;
+        case 3:
+            console.log('wednesday');
+            break;
+        case 4:
+            console.log('Thrusday');
+            break;
+        case 5:
+            console.log('Friday');
+            break;
+        // case 6:
+        //     console.log('Saturday');
+        //     break;
+        // case 7:
+        //     console.log('Sunday');
+        //     break;
+
+        case 6:
+        case 7:
+            console.log('Week End!!!');
+            break;
+        default:
+                console.log('There is no such day in week');
+        }
+    
+</script>
+
+<body>
+    
+</body>
+</html>
