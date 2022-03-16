@@ -6,14 +6,14 @@
 /* eslint-disable space-before-function-paren */
 /* eslint-disable no-unused-vars */
 /* eslint-disable semi */
-const o1 = Object.create({ x: 100, y: 200 });
+let o1 = Object.create({ x: 100, y: 200 });
 console.log('x=' + o1.x + 'y=' + o1.y);
 console.log(o1);
 
-const o2 = Object.create(null);
-const o3 = Object.create(Object.prototype);
-// const o3 = new Object();
-// const o3 = {};
+let o2 = Object.create(null);
+let o3 = Object.create(Object.prototype);
+// let o3 = new Object();
+// let o3 = {};
 console.log(o2);
 console.log(o3);
 
@@ -23,9 +23,9 @@ function getChild (parent) {
     if (parent == null) throw TypeError();
     return Object.create(parent);
 }
-const o4 = { x: "don't change this value" };
+let o4 = { x: "don't change this value" };
 console.log(o4.x);
-const p = getChild(o4); // object.create(o4)
+let p = getChild(o4); // object.create(o4)
 console.log(p);
 /*   o4 = null;
 p = getChild(o4) // object.create(null);
@@ -42,7 +42,7 @@ let o5 = {};
 console.log(o5);
 o5.x = 100;
 console.log(o5);
-const p1 = getChild(o5);
+let p1 = getChild(o5);
 console.log(p1);
 p1.y = 200;
 let q = getChild(p1);

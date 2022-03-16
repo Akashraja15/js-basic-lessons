@@ -1,13 +1,16 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-var */
+/* eslint-disable no-undef */
 /* eslint-disable prefer-const */
 /* eslint-disable no-undef-init */
 /* eslint-disable semi */
-const book = {
+let book = {
   'main title': 'JavaScript', // property names include spaces  you have to put in single quotes
   subtitle: 'The Dedinitive guide', // - in key you have to put in single quotes
   for: 'all audience', // reversed keyword you have to put in sinle quotes
   author: {
     firstname: 'Akash',
-    surname: 'Raja '
+    surname: 'Raja'
   }
 };
 let len = undefined;
@@ -37,14 +40,18 @@ let o6 = { x: 100 };
 console.log(o6.x);
 delete o6.x;
 console.log(o6.x);
-console.log(o6.toString);
+console.log(o6.toString());
 delete o6.toString;
+console.log(o6.toString());
 console.log(o6.toString);
 
 // --------------------------------------------------
 
-delete Object.prototype;
-// var a = 1;
-// delete this.a;
-// function f1 () {}
-// delete this.f1();
+// delete Object.prototype;
+var a = 1;
+console.log(a);
+delete this.a; // not deleted
+console.log(a);
+// global variable are not deleted, function are deleted
+function f1 () {}
+delete this.f1();
