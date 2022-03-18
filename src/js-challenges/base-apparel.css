@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 * {
 	padding: 0;
 	margin: 0;
@@ -35,7 +34,7 @@ header img {
 .container .right {
 	width: 100%;
 	height: 300px;
-	background-image: url(../images/hero-mobile.jpg);
+	background-image: url(../../images/hero-mobile.jpg);
 	background-size: cover;
 }
 .container .right img {
@@ -157,14 +156,14 @@ footer a {
 	.container .right {
 		width: 80%;
 		height: 100vh;
-		background-image: url(../images/hero-desktop.jpg);
+		background-image: url(../../images/hero-desktop.jpg);
 	}
 	.container .left {
 		padding-top: 28vh;
 		width: 100%;
 		height: 100vh;
 		padding-left: 10%;
-		background-image: url(../images/bg-pattern-desktop.svg);
+		background-image: url(../../images/bg-pattern-desktop.svg);
 		background-size: cover;
 		background-position: center;
 	}

@@ -51,7 +51,7 @@
  }
  
  header {
-   background: #0006 url(../images/desktop-loopstudio/image-hero.jpg) no-repeat center;
+   background: #0006 url(../../images/desktop-loopstudio/image-hero.jpg) no-repeat center;
    background-size: cover;
    background-blend-mode: multiply;
    padding: 65px var(--px);

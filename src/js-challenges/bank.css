@@ -134,7 +134,7 @@
   }
   
   .home-img-box {
-    background: url(../images/bg-intro-mobile.svg) no-repeat top;
+    background: url(../../images/bg-intro-mobile.svg) no-repeat top;
     background-size: cover;
     padding: 0 15px;
     margin-bottom: 40px;
@@ -385,7 +385,7 @@
   
     .home-img-box {
       width: 55%;
-      background: url(../images/bg-intro-desktop.svg) no-repeat bottom left;
+      background: url(../../images/bg-intro-desktop.svg) no-repeat bottom left;
       background-size: 150%;
       /* background-position: bottom left; */
       margin:  0;
