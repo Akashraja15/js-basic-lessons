@@ -34,13 +34,13 @@ class Pizza {
       console.log(this);
   }
   // Private field can only be modified inside a class
-  #bankBalance = 10000;
+  bankBalance = 10000;
 
   get balance() {
-      return this.#bankBalancebankBalance;
+      return this.bankBalancebankBalance;
   }
   set balance(value) {
-      this.#bankBalancebankBalance = value;
+      this.bankBalancebankBalance = value;
   }
 
 }
@@ -62,5 +62,5 @@ console.log(myLunch.noOfSlices);
 console.log(myLunch.balance);
 myLunch.balance = 5000;
 console.log(myLunch.balance);
-myLunch.#bankBalance = 2000;
+myLunch.bankBalance = 2000;
 console.log(myLunch.balance);
