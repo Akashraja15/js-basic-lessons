@@ -1,19 +1,4 @@
-import { currencies } from "./currencies";
-const primaryCurrency = document.getElementById("primary");
-const secondaryCurrency = document.getElementById("secondary");
-primaryCurrency.innerHTML = getOptions(currencies);
-secondaryCurrency.innerHTML = getOptions(currencies);
-function getOptions(data) {
-     return Object.entries(data)
-      .map(
-       ([country, currency]) =>
-        `<option value="${country}">${country == 'MSG' ? " " : country} ${currency}</option>`
-      )
-      .join("");
-    }
-    document.getElementById("amount").addEventListener("change", myFunction);
- export function myFunction() {
-var currency = document.getElementById("amount");
-var result = Math.random(currency);
-document.getElementById('result').innerHTML=result;
+export function math() {
+    document.getElementById("output").innerHTML = parseInt((Math.floor(Math.random() * 100)) * input.value);
+
 }

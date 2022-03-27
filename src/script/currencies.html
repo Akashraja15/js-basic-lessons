@@ -2,35 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currency</title>
-    <link rel="stylesheet" href="currencies.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="currencies.css" />
+    <title>Js-Module</title>
+
 </head>
 
 <body>
-    <form>
-        <table align="center">
-            <tr>
-                <td><input type="number" value="" id="amount"></td>
-                <td>
-                    <select id="primary" class="input"></select>
-                </td>
-            </tr>
-            <tr>
-                <td>in</td>
-                <td>
-                    <select id="secondary" class="input"></select>
-                </td>
-            </tr>
-            <tr>
-                <td>is</td>
-
-                <td id="result">$0</td>
-            </tr>
-        </table>
+    <h1>Currency Converter</h1>
+    <table class="container">
+        <tr>
+            <td><input type="number" value="0" id="input" /></td>
+            <td>
+                <form>
+                    <select name="from_currency" id="currency">
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>In</td>
+            <td>
+                <div>
+                    <select name="to_currency" id="currency"></select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Is</td>
+            <td>
+                <div id="output"></div>
+            </td>
+        </tr>
+    </table>
     </form>
-    <script type="module" src="money.js"></script>
+    <script src="currencies.js" type="module"></script>
 </body>
 </html>
