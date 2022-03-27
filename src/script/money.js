@@ -1,4 +1,4 @@
-import { currencies } from "../script/currencies";
+import { currencies } from "./currencies";
 const primaryCurrency = document.getElementById("primary");
 const secondaryCurrency = document.getElementById("secondary");
 primaryCurrency.innerHTML = getOptions(currencies);
