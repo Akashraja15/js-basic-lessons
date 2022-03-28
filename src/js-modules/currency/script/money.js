@@ -13,7 +13,7 @@ function getOptions(data) {
     }
     document.getElementById("amount").addEventListener("change", myFunction);
  export function myFunction() {
-var currency = document.getElementById("amount");
+var currency = document.getElementById("amount").value;
 var result = currency * 4;
 document.getElementById('result').innerHTML=result;
 }
