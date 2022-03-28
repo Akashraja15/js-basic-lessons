@@ -1,9 +1,6 @@
 body {
     background-color: gray;
   }
-  h1 {
-    margin: auto;
-  }
   input {
     background-color: orange;
     appearance: none;
