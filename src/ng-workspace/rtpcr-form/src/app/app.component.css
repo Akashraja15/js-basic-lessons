@@ -6,8 +6,12 @@
 }
 
 h1{
+    background-color: black;
     margin-top: 1rem;
-    margin-left: 6rem;
+    margin-left: -0.8rem;
+    margin-right: -0.8rem;
+    height: 60px;
+    text-align: center;
 }
 
 hr {
@@ -89,7 +93,7 @@ button {
     margin-top: 2rem;
     margin-left: 75px;
     color: white;
-    background-color: black;
+    background-color: brown;
   }
 
   table tr th,
