@@ -3,6 +3,6 @@
 
 body {
     color: white;
-  background:linear-gradient(to right,rgb(59, 176, 57) 0%,pink 100%);
+  background:linear-gradient(to right,rgb(59, 176, 57),pink 100%);
 }
 
