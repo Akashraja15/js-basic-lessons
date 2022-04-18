@@ -1,0 +1,5 @@
+<app-parent-field *ngIf="show" name="{{name}}">{{name}}</app-parent-field>
+<p>Checking the various Angular Lifecycle Hooks</p>
+<input type="text" [(ngModel)]="name" />
+
+<button type="button" (click)="toggle()">Toggle</button>
